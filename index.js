@@ -120,6 +120,7 @@ async function getTopstories(sec)
          cr.setAttribute('style','font-style:italic;color:blue')
          var acr = myElement('a');
          acr.setAttribute('href',element.url);
+         acr.setAttribute('target','_blank');
          acr.innerHTML = 'Continue Reading';
          cr.append(acr);
     
