@@ -1,7 +1,8 @@
+window.onload = ()=>{
+getTopstories('home');
 var colnav = myElement('div','mb-3');
 var nav = myElement('nav','navbar navbar-expand-lg justify-content-between');
-window.onload = getTopstories('home');
-
+   
 var a1 = myElement('button','btn btn-dark');
 a1.setAttribute('style','font-weight:normal')
 a1.setAttribute('onclick',"getTopstories('home')");
@@ -67,6 +68,8 @@ colnav.append(nav);
 var hr = document.createElement('hr');
 var main = myElement('div','container','main');
 document.body.append(colnav,hr,main);
+} 
+
 
 
 //Get data from API
