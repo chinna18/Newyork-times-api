@@ -117,7 +117,7 @@ async function getTopstories(sec)
          var col3 = myElement('div','col-md-3');
          var img = myElement('img','img-fluid card-img-top');
          img.setAttribute('src',element.multimedia[4].url);
-         img.setAttribute('style','height:250px;width:300px')
+         img.setAttribute('style','display:block;height:250px;width:100%')
          
          cardbody.append(section,dtitle,by,ddate,dabstract,cr);
          col2.append(cardbody);
