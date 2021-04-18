@@ -1,6 +1,6 @@
 var colnav = myElement('div','mb-3');
 var nav = myElement('nav','navbar navbar-expand-lg justify-content-between');
-document.body.onload = getTopstories('home');
+window.onload = getTopstories('home');
 
 var a1 = myElement('button','btn btn-dark');
 a1.setAttribute('style','font-weight:normal')
